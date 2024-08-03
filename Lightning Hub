@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library =loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
 local Window = Library.CreateLib("Lightning Hub⚡(Beta) ", "Midnight")
 
@@ -338,17 +338,17 @@ end)
 
 Section:NewButton("ScriptMaster Hub", "ButtonInfo", function()
     -- scriptmaster hub loadstring
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheScriptMaster1/ScriptMaster-Hub/main/scriptmasterhub.lua')))()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/TheScriptMaster1/ScriptMaster-Hub/main/scriptmasterhub.lua')))()
 end)
 
-Section:NewButton("Slapper Hub", "ButtonInfo", function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/CatmemerAKAcatluga/Slap-Battles-Dev/main/Slapper-Hub-v2-4.lua%22))()
+Section:NewButton("Slap Battle Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
 end)
 
 Section:NewButton("Dizzy Hub", "ButtonInfo", function()
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/loader.lua")))();
 end)
 
-local Section = Tab:NewSection("Creadit")
+local Section = Tab:NewSection("Credit")
 
 Section:NewLabel("EGM")
